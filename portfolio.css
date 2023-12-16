@@ -5,36 +5,69 @@
 
 }
 .div1{
-  background-color: grey;
   height: 100px;
   text-align: center;
 }
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
   padding: 30px;
   border: 1.3em;
   border-color: white;
 }
 
 #welcome_section{
-    background-image: url(./media/web\ dev\ 7.jpg);
+    background-image: url(./media/web\ dev\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #333; */
     height: 100vh;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    color: black;
+    color: rgba(163, 141, 13, 0.781);
     font-family: fantasy;
+    
 }
 
-.project_tile{
+main{
+  display: grid;
+  padding: 20px;
+  box-shadow: black;
+  /* background-color: rgb(40, 46, 16); */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6 200px);
+  gap: 10px;
+  grid-template-areas: 
+  "a1 a1 b2 b2"
+  "a1 a1 b2 b2"
+  "a1 a1 b2 b2"
+  "c3 c3 d4 d4"
+  "c3 c3 d4 d4"
+  "c3 c3 d4 d4";
+}
+section:nth-of-type(1){
+  grid-area: a1;
+}
+section:nth-of-type(3){
+  grid-area: b2;
+}
+section:nth-of-type(4){
+  grid-area: c3;
+}
+section:nth-of-type(5){
+  grid-area: d4;
+}
+
+/* .project_tile{
     background-color: antiquewhite;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+} */
 h2{
   text-align: center;
   
@@ -86,10 +119,10 @@ h2{
 .button:active{
   opacity: 0.8;
 }
-main{
+/* main{
   background-color: rgb(104, 90, 10);
   padding: 0;
-}
+} */
 .my_contacts{
   color: white;
   text-align: center;
@@ -133,16 +166,6 @@ main{
   background-color: wheat;
 
 }
-
-
-section:last-of-type{
-  background-color: azure;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
 ul{
   list-style: none;
   padding: 0;
