@@ -35,7 +35,7 @@ main{
   display: grid;
   padding: 20px;
   box-shadow: black;
-  background-color: gray;
+  background-color: grey;
   height: 50vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6 200px);
@@ -83,7 +83,7 @@ h2{
   cursor: pointer;
 }
 .explore:hover{
-  background-color: rgba(5, 68, 5, 0.479);
+  background-color: rgba(5, 68, 5, 0.521);
 }
 
 .project{
@@ -121,16 +121,13 @@ footer{
   transition: 0.19s;
 }
 .button:hover{
-  background-color: rgb(56, 19, 13);
+  background-color: rgba(5, 68, 5, 0.315);
   opacity: 0.8;
 }
 .button:active{
   opacity: 0.8;
 }
-/* main{
-  background-color: rgb(104, 90, 10);
-  padding: 0;
-} */
+
 .my_contacts{
   color: white;
   text-align: center;
