@@ -5,7 +5,7 @@
 
 }
 .div1{
-  height: 100px;
+  height: fit-content;
   text-align: center;
 }
 nav{
@@ -35,7 +35,8 @@ main{
   display: grid;
   padding: 20px;
   box-shadow: black;
-  /* background-color: rgb(40, 46, 16); */
+  background-color: gray;
+  height: 50vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6 200px);
   gap: 10px;
@@ -60,14 +61,7 @@ section:nth-of-type(5){
   grid-area: d4;
 }
 
-/* .project_tile{
-    background-color: antiquewhite;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-} */
+
 h2{
   text-align: center;
   
@@ -89,7 +83,21 @@ h2{
   cursor: pointer;
 }
 .explore:hover{
-  background-color: green;
+  background-color: rgba(5, 68, 5, 0.479);
+}
+
+.project{
+  text-align: center;
+  background-color: rgba(47, 255, 134, 0.534);
+}
+
+header{
+  background-color: darkgray;
+  margin: 0;
+}
+
+footer{
+  background-color: darkgray;
 }
 .skills{
   background-color: blue;
@@ -101,7 +109,7 @@ h2{
   margin-left: 25px;
 }
 .skills:hover{
-  background-color: green;
+  background-color: rgba(5, 68, 5, 0.479);
 }
 .button{
   border: none;
