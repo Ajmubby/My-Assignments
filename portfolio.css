@@ -6,7 +6,7 @@
 }
 .div1{
   height: fit-content;
-  text-align: center;
+  text-align: end;
 }
 nav{
   display: flex;
