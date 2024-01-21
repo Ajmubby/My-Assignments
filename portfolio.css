@@ -21,7 +21,6 @@ nav{
     background-image: url(./media/web\ dev\ 4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: #333; */
     height: 100vh;
     display: flex;
     justify-content: center;
